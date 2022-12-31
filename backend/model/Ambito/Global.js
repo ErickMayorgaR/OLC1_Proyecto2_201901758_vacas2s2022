@@ -19,7 +19,7 @@ function Global(_instrucciones, _ambito) {
                     tipo: 'Semántico',
                     error: "No es posible ejecutar más de un Start With.",
                     linea: _instrucciones[i].linea,
-                    columna: _instrucciones[i].columna
+                    columna: _instrucciones[i].columnas
                 });
                 return cadena;
             }
@@ -27,10 +27,12 @@ function Global(_instrucciones, _ambito) {
         }
     }
     if (countStart == 0) {
-        cadena.cadena = `Error: No se ha encontrado ninguna sentencia Start With.\n`;
+        cadena.cadena = `Error: Por favor declare una funcion
+         main (start with) para poder iniciar.\n`;
         cadena.errores.push({
             tipo: 'Semántico',
-            error: "No se ha encontrado ninguna sentencia Start With.",
+            error: `Error: Por favor declare una funcion
+            main start with) para poder iniciar.\n`,
             linea: "-",
             columna: "-"
         });

@@ -1,13 +1,13 @@
 .title {
-    background-color: #9f20f0;
+    background-color: #023047;
     text-align: center;
-    color: white;
+    color: #ffb703;
    
 }
 .mona{
     font-size: 20px;
     text-align: center;
-    color: white;
+    color: #ffb703;
 }
 button {
     font-family: 'Varela Round', sans-serif;
@@ -18,11 +18,11 @@ button {
     font-size: large;
 }
 .editor {
-    background-image: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+    background-color: #023047;
 }
 .foot {
     font-family: 'Varela Round', sans-serif;
-    color: lightgrey;
+    color: #ffb703;
 }
 
 .codebox {
@@ -60,7 +60,7 @@ hr {
   }
   .tab .nav-tabs li.active a,
   .tab .nav-tabs li.active a:hover{
-      color: #fff;
+      color: rgb(87, 0, 250);
       background-color: #ff4300;
       border: none;
   }
@@ -82,7 +82,7 @@ hr {
   }
   .tab .tab-content{
       color: #ff4300;
-      background: repeating-linear-gradient(45deg, transparent,transparent 10px,rgba(255,67,0,0.03) 10px, rgba(255,67,0,0.03) 20px);
+      background-color: #ffb703;
       font-size: 16px;
       font-weight: 600;
       letter-spacing: 1px;
@@ -91,18 +91,3 @@ hr {
       border: 2px solid #ff4300;
       border-radius: 0 0 30px 30px;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
